@@ -31,6 +31,34 @@
     "3": "Optimized application performance by identifying bottlenecks and implementing efficient solutions.",
     "4": "Monitored system performance and resolved technical issues in Linux/Nginx server environment."
   },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "viewGitHub": "View GitHub",
+    "technologies": "Technologies Used",
+    "1": {
+      "name": "Static Site For Cycling Club",
+      "description": "Developed a static website for a local cycling club, providing information about events, and club activities. Includes dynamic calculator for calculating gear ratios based on user input.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Nginx"],
+      "link": "https://www.tqhcfr.cc/",
+      "github": "https://www.github.com/leebossi/tqhcfr.cc"
+    },
+    "2": {
+      "name": "Marketing Scheduler Web Application",
+      "description": "Co-Developed a web application for scheduling and managing marketing campaigns. The application allows users to create, edit, and track marketing campaigns.",
+      "technologies": [
+        "Node",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "Nginx"
+      ],
+      "link": "https://www.marketta.net/",
+      "github": "https://www.github.com/tammenterho/markku"
+    }
+  },
   "bikes": {
     "loading": "Loading bikes...",
     "title": "Bikes",

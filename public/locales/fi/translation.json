@@ -31,6 +31,34 @@
     "3": "Optimoin sovelluksen suorituskykyä tunnistamalla pullonkauloja ja toteuttamalla tehokkaita ratkaisuja.",
     "4": "Seurasin järjestelmän suorituskykyä ja ratkaisin teknisiä ongelmia Nginx/Linux -palvelinympäristössä."
   },
+  "projects": {
+    "title": "Projektit",
+    "viewProject": "Näytä projekti",
+    "viewGitHub": "Näytä GitHub",
+    "technologies": "Käytetyt teknologiat",
+    "1": {
+      "name": "Staattinen sivusto pyöräilykerholle",
+      "description": "Kehitin staattisen verkkosivuston paikalliselle pyöräilykerholle, joka tarjoaa tietoa tapahtumista ja kerhon toiminnasta. Sisältää dynaamisen laskurin, joka laskee vaihteiden välityssuhteet käyttäjän syötteen perusteella.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Nginx"],
+      "link": "https://www.tqhcfr.cc/",
+      "github": "https://www.github.com/leebossi/tqhcfr.cc"
+    },
+    "2": {
+      "name": "Markkinointiaikatauluttaja web-sovellus",
+      "description": "Yhteiskehitetty web-sovellus markkinointikampanjoiden aikatauluttamiseen ja hallintaan. Sovellus mahdollistaa käyttäjien luoda, muokata ja seurata markkinointikampanjoita.",
+      "technologies": [
+        "Node",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "Nginx"
+      ],
+      "link": "https://www.marketta.net/",
+      "github": "https://www.github.com/tammenterho/markku"
+    }
+  },
   "bikes": {
     "loading": "Ladataan pyöriä...",
     "title": "Pyörät",

@@ -1,0 +1,26 @@
+{
+  "Projects": [
+    {
+      "name": "Static Site For Cycling Club",
+      "description": "Developed a static website for a local cycling club, providing information about events, and club activities. Includes dynamic calculator for calculating gear ratios based on user input.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Nginx"],
+      "link": "https://www.tqhcfr.cc/",
+      "github": "https://github.com/leebossi/tqhcfr.cc"
+    },
+    {
+      "name": "Marketing Scheduler Web Application",
+      "description": "Co-Developed a web application for scheduling and managing marketing campaigns. The application allows users to create, edit, and track marketing campaigns.",
+      "technologies": [
+        "Node",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "React",
+        "Nginx"
+      ],
+      "link": "https://www.marketta.net/",
+      "github": "https://github.com/tammenterho/markku"
+    }
+  ]
+}
