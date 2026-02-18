@@ -1,5 +1,5 @@
 
-# Personal site v2
+# Personal site v2 &nbsp;&nbsp;&nbsp;&nbsp; [![Deploy](https://github.com/Leebossi/personal-site-v2/actions/workflows/deploy.yml/badge.svg)](https://github.com/Leebossi/personal-site-v2/actions/workflows/deploy.yml)
 
 Personal portfolio site built with modern React tooling and multilingual support.
 
