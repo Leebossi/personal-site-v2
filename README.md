@@ -6,7 +6,7 @@ Personal portfolio site built with modern React tooling and multilingual support
 ## Technologies
 
 ### Core
-- **React 19** for the UI
+- **React** for the UI
 - **TypeScript** for type-safe development
 - **Vite** for fast dev server and production builds
 - **React Router** for client-side routing
