@@ -53,6 +53,9 @@ const Bikes = () => {
   return (
     <div id="bikes">
       <h1>{t("bikes.title")}</h1>
+      <div className="container card">
+        <p>{t("bikes.description")}</p>
+      </div>
       <div className="container">
       <div className="bike-tabs">
         {bikeEntries.map(([bikeKey], index) => (

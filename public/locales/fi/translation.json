@@ -62,6 +62,7 @@
   "bikes": {
     "loading": "Ladataan pyöriä...",
     "title": "Pyörät",
+    "description": "Pyörät ovat toinen intohimoni ja kuten ohjelmistokehitys, ne ovat jatkuvasti kehittyviä projekteja.",
     "specs": "Tekniset tiedot",
     "components": "Komponentit",
     "Cockpit & Seating": "Ohjaamo & Istuin",

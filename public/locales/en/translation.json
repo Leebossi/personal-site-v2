@@ -62,6 +62,7 @@
   "bikes": {
     "loading": "Loading bikes...",
     "title": "Bikes",
+    "description": "Bikes are my other passion and like software development, they are constantly evolving projects.",
     "specs": "Specifications",
     "components": "Components",
     "Cockpit & Seating": "Cockpit & Seating",
