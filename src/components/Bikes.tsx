@@ -12,7 +12,7 @@ const Bikes = () => {
   useEffect(() => {
     const preloadImages = async () => {
       const imageUrls: string[] = [];
-      
+
       // Collect all image URLs from bike data
       bikeEntries.forEach(([, bikeInfo]) => {
         if (bikeInfo.images && Array.isArray(bikeInfo.images)) {
@@ -53,21 +53,23 @@ const Bikes = () => {
   return (
     <div id="bikes">
       <h1>{t("bikes.title")}</h1>
-      <div className="container card">
-        <p>{t("bikes.description")}</p>
+      <div className="container">
+        <div className="card">
+          <p>{t("bikes.description")}</p>
+        </div>
       </div>
       <div className="container">
-      <div className="bike-tabs">
-        {bikeEntries.map(([bikeKey], index) => (
-          <button
-            key={bikeKey}
-            className={`bike-tab ${selectedBikeIndex === index ? "active" : ""}`}
-            onClick={() => setSelectedBikeIndex(index)}
-          >
-            {bikeKey}
-          </button>
-        ))}
-      </div>
+        <div className="bike-tabs">
+          {bikeEntries.map(([bikeKey], index) => (
+            <button
+              key={bikeKey}
+              className={`bike-tab ${selectedBikeIndex === index ? "active" : ""}`}
+              onClick={() => setSelectedBikeIndex(index)}
+            >
+              {bikeKey}
+            </button>
+          ))}
+        </div>
         <BikeCard
           key={bikeEntries[selectedBikeIndex][0]}
           title={bikeEntries[selectedBikeIndex][0]}

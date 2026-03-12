@@ -529,6 +529,10 @@ nav a:hover {
     padding: 0;
   }
 
+  #bikes .card:first-child {
+    padding: 1rem;
+  }
+
   .bike-tabs {
     border: none;
   }
