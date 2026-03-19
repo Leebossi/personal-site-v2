@@ -26,8 +26,8 @@
     "title": "Work Experience",
     "position": "Systems Specialist",
     "viewCV": "View CV",
-    "1": "Developed and maintained new features for invoicing web application and internal collection system using PHP, MySQL, JavaScript, HTML, and CSS.",
-    "2": "Implemented and maintained integrations with third party platforms such as point of sale systems and accounting software.",
+    "1": "Developed and maintained new features for a multi-tenant invoicing web application and internal collection system using PHP, MySQL, JavaScript, HTML, and CSS.",
+    "2": "Implemented and maintained integrations with third party platforms such as point of sale systems and accounting software using various APIs and data formats (e.g. REST, SOAP, JSON, XML).",
     "3": "Optimized application performance by identifying bottlenecks and implementing efficient solutions.",
     "4": "Monitored system performance and resolved technical issues in Linux/Nginx server environment."
   },
